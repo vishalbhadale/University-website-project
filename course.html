@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpeg"></a>
+            <div class="nav-links" id="nav_links">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    <!-- Corse -->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Animation and Design	Arts, Humanities, and Social Sciences	
+            Commerce Computer Applications and IT	
+            Education Engineering and Architecture	
+            Hospitality and Tourism Law	Management and Business Administration	
+            Media, Mass Communication, and Journali</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Animation and Design	Arts, Humanities, and Social Sciences	
+                        Commerce Computer Applications and IT	
+                        Education Engineering and Architecture	
+                        Hospitality and Tourism Law	Management and Business Administration	
+                        Media, Mass Communication, and Journali
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Animation and Design	Arts, Humanities, and Social Sciences	
+                        Commerce Computer Applications and IT	
+                        Education Engineering and Architecture	
+                        Hospitality and Tourism Law	Management and Business Administration	
+                        Media, Mass Communication, and Journali
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>postGraduation</h3>
+                    <p>
+                        Animation and Design	Arts, Humanities, and Social Sciences	
+                        Commerce Computer Applications and IT	
+                        Education Engineering and Architecture	
+                        Hospitality and Tourism Law	Management and Business Administration	
+                        Media, Mass Communication, and Journali
+                    </p>
+                </div>
+            </div>
+        </section>
+    <!-- Course -->
+    <section class="facility">
+        <h1>Our Facility</h1>
+        <p>COLLEGE HOSTEL.TRANSPORT FACILITY.CAFETERIA.LIBRARY & INFORMATION CENTER.
+            COLLEGE CANTEEN.INTERNET CENTRE.
+        </p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="library.jpeg" alt="">
+                <h3>World Class Library</h3>
+                <p> College library extends opportunities for self-education 
+                    to the deserving and enthusiastic students without any distinction
+                </p>
+            </div>
+            <div class="facility-col">
+                <img src="plaground.jpeg" alt="">
+                <h3>Largest Playgound</h3>
+                <p> Our College has an excellent play ground for students with 
+                    indoor and out door sports facilities.
+                </p>
+            </div>
+            <div class="facility-col">
+                <img src="cafetarea.jpeg" alt="">
+                <h3>Best Cafetarea</h3>
+                <p> College canteen is one of the most happening places in the campus. 
+                    Of course, it is known for its savory food
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            College Life is one of the most remarkable and lovable times of an individual's life. <br>Unlike School Life, 
+            College Life has a different experience
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script>
+        var nav_links=document.getElementById("nav_links");
+        function showMenu(){
+            nav_links.style.right="0";
+        }
+        function hideMenu(){
+            nav_links.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>

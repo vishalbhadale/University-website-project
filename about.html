@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpeg"></a>
+            <div class="nav-links" id="nav_links">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+    <!-- About content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World Best University
+                </h1>
+                <p>Our strategy for 2021-2026 represents our shared ambition for the 
+                    University over the next five years and sets out our vision to be 
+                    a vibrant and ambitious academic community, celebrating diversity 
+                    and the transformative power of education.Featuring nine ambitious 
+                    goals to ‘Transform Bedfordshire’, our strategy will build on our strengths, 
+                    address our developing areas and open up new opportunities for our staff 
+                    and students..Both school life and college life is the most memorable time 
+                    of a person's life, but both of them are quite different from each other. 
+                    While in School life, we learn everything in a protected environment
+                </p>
+                <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about us.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            College Life is one of the most remarkable and lovable times of an individual's life.
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script>
+        var nav_links=document.getElementById("nav_links");
+        function showMenu(){
+            nav_links.style.right="0";
+        }
+        function hideMenu(){
+            nav_links.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
